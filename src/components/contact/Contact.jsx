@@ -18,8 +18,8 @@ const Contact = () => {
   };
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Contato</h2>
-      <span className="section__subtitle">Contato</span>
+      <h2 className="section__title">Contatos</h2>
+      <span className="section__subtitle"></span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
@@ -33,8 +33,7 @@ const Contact = () => {
                 pedro.fontinelles@gmail.com
               </span>
               <a href="pedro.fontinelles@gmail.com" className="contact__button">
-                Escreva-me
-                <i className="bx bxl-right-arrow-alt contact__button-icon"></i>
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
             <div className="contact__card">
@@ -42,17 +41,16 @@ const Contact = () => {
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+55 (61)98156-8030</span>
               <a
-                href="https://api.whatsapp.com/send?phone=61981568030&text=Olá, vim para comentar sobre o portfolio!"
+                href="https://api.whatsapp.com/send?phone=6181568030&text=Olá, tudo bem?"
                 className="contact__button"
               >
-                Escreva-me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
           </div>
         </div>
         <div className="contact__content">
-          <h3 className="contact__title">Motivo de contato</h3>
+          <h3 className="contact__title">Motivo do contato</h3>
 
           <form
             ref={form}

@@ -14,10 +14,10 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Sempre fui apaixonado por programação desde que conheci na minha
-            adolescência e hoje em dia busco me especializar mais em
-            desenvolvimento web, faço vários cursos para me aperfeiçoar mais e
-            não me limito a novos conhecimentos na area.
+            Sou apaixonado pela programação desde que a conheci, no período da
+            minha adolescência. Atualmente busco especialização em
+            desenvolvimento web através de cursos voltados à área e não
+            determino limites pela busca e aquisição de conhecimento.
           </p>
           <a download={CV} href={CV} className="button button--flex">
             Currículo

@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Desenvolvedor Jr</h3>
       <p className="home__description">
-        Estou cursando Engenharia de Software e me encontro no sexto semestre.
+        Cursando Engenharia de Software.
         <br />
         Objetivo: Crescer como desenvolvedor.
       </p>
